@@ -1,20 +1,20 @@
 module priority_encoder 
 #(parameter N = 4)
 (
-input [N-1:0] w,
-output reg [$clog2(N) -1 :0] y,
-output z
+input [N-1:0] D,
+output reg [$clog2(N) -1 :0] Y,
+output V
 );
 integer k;
-assign z = |w;
+assign V = |D;
 
-always @(w)
+    always @(D)
 
 begin
-    y = 'bx;
+    Y = 'bx;
 for(k = 0; k < N; k = k + 1)
-   if (w[k])
-   y = k;
+    if (D[k])
+   Y = k;
 end
 
 endmodule
