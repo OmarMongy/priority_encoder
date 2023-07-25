@@ -8,7 +8,7 @@ A priority encoder operates such that if two or more inputs have a value of 1 at
 
 Additionally, the priority encoder has a third output line, V, which serves as a one-bit indicator. When one or more inputs are equal to 1, V is set to 1. However, if all inputs are 0, V is set to 0, indicating that there is no valid input.
 
-The simplified Boolean expressions for the priority encoder are derived from the maps used for simplifying outputs x and y. These expressions are generated from the truth table that specifies the priority behavior.
+The simplified Boolean expressions for the priority encoder are derived from the maps used for simplifying outputs y0 and y1. These expressions are generated from the truth table that specifies the priority behavior.
 
 ![Image of the truth table and priority behavior](https://www.electronicshub.org/wp-content/uploads/2015/06/4-bit-Priority-Encoder-Truth-Table.jpg)
 
