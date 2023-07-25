@@ -10,7 +10,7 @@ Additionally, the priority encoder has a third output line, V, which serves as a
 
 The simplified Boolean expressions for the priority encoder are derived from the maps used for simplifying outputs x and y. These expressions are generated from the truth table that specifies the priority behavior.
 
-[https://www.electronicshub.org/wp-content/uploads/2015/06/4-bit-Priority-Encoder-Truth-Tabl]
+![Image of the truth table and priority behavior](https://www.electronicshub.org/wp-content/uploads/2015/06/4-bit-Priority-Encoder-Truth-Table.jpg)
 
 ## Implementation
 
