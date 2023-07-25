@@ -1,4 +1,4 @@
-# Priority Encoder GitHub Repository
+# Priority Encoder 
 
 This GitHub repository contains an implementation of a priority encoder circuit with a priority function. A priority encoder is a digital circuit that takes multiple inputs and selects the input with the highest priority when more than one input is active simultaneously.
 
