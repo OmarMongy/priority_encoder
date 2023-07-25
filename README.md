@@ -14,7 +14,7 @@ The simplified Boolean expressions for the priority encoder are derived from the
 
 ## Implementation
 
-In this repository, you will find the Python code (`priority_encoder.v`) implementing the priority encoder circuit. Additionally, a testbench (`priority_encoder_tb.v`) is provided to validate the functionality of the priority encoder.
+In this repository, you will find the Verilog code (`priority_encoder.v`) implementing the priority encoder circuit. Additionally, a testbench (`priority_encoder_tb.v`) is provided to validate the functionality of the priority encoder.
 
 ### Repository Contents
 
