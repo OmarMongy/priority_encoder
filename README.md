@@ -4,7 +4,7 @@ This GitHub repository contains an implementation of a priority encoder circuit 
 
 ## Description
 
-A priority encoder operates such that if two or more inputs have a value of 1 at the same time, the input with the highest priority takes precedence. The encoder produces two output lines, usually denoted as x and y, according to the priority rules specified in the truth table.
+A priority encoder operates such that if two or more inputs have a value of 1 at the same time, the input with the highest priority takes precedence. The encoder produces two output lines, usually denoted as y0 and y1, according to the priority rules specified in the truth table.
 
 Additionally, the priority encoder has a third output line, V, which serves as a one-bit indicator. When one or more inputs are equal to 1, V is set to 1. However, if all inputs are 0, V is set to 0, indicating that there is no valid input.
 
